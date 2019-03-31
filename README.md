@@ -7,6 +7,6 @@ src is a development directory , compiled code would be placed in dist folder
 
 # How to run project
 
-npm init ,
+npm init 
 
 gulp   
