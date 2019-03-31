@@ -1,0 +1,24 @@
+{
+  "name": "gulp-project-setup",
+  "version": "1.0.0",
+  "description": "gulp project setup from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mayank bhadauria",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp-babel": "^8.0.0"
+  }
+}
