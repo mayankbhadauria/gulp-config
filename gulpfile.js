@@ -64,6 +64,7 @@ function cleanDir() {
     .pipe(clean());
 }
 
+//can be use to optimized operation such as linting js files
 function clearCache() {
     cache.caches = {}
 }
@@ -78,6 +79,9 @@ function watch() {
     gulp
         .watch(['./src/**/*.js', './*.html', './src/**/*.scss'])
         .on('change', function(){
+            //TODO
+            //MB: run all task if any watched files changed
+            //This can be optimized as each task can be run according to specific file type of file change.
             style();
             javaScript();
             html();
@@ -87,4 +91,5 @@ function watch() {
 
 
 exports.caches = clearCache;
+// series and parallel both can be use sepratly or all together
 exports.default = series(cleanDir, style, javaScript, html, watch);
