@@ -1,9 +1,10 @@
 # gulp-config
 
-# gulp configuration setup for gulp v4 
+gulp configuration setup use latest gulp v4 (03/31/19)
 
-# src is a development directory , compiled code would placed in dist folder
+#Discription
+src is a development directory , compiled code would be placed in dist folder
 
 # How to run project
-# npm init
-# gulp   
+npm init
+gulp   
